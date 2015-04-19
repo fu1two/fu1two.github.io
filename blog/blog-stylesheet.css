@@ -187,10 +187,27 @@ header a:hover
 	color:#2c3e50;
 }
 
+figure
+{
+	margin-left: 15%;
+	padding-bottom: 20px;
+}
+figcaption
+{
+	width:400px;
+	margin-left: 20px;
+}
 #post-list a:hover
 {
 	text-decoration: none;
 	color:#e74c3c;
+}
+
+.photo
+{
+	padding: 10px;
+	border: 1px solid #2c3e50;;
+	margin:10px;
 }
 
 * {
