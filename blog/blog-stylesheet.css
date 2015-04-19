@@ -1,0 +1,198 @@
+body, html
+{
+	height: 100%;
+	color:#898989;
+	background-image: url("imgs/concrete_seamless.png");
+	font-family: 'Arimo', sans-serif;
+	
+}
+.wrapper 
+{
+
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+	width: 900px;
+	background-color: #ecf0f1;
+	box-shadow: 0 0 10px #959595;	
+	
+}
+
+nav
+{
+	padding-right: 20px;
+	padding-top:15px;
+	
+	height:25px;
+	border-bottom: 1px solid #464646;
+	background-color: #ecf0f1;
+	text-align: right;
+	
+}
+
+nav a
+{
+	text-decoration: none;
+	color: #e74c3c;
+}
+
+nav a:hover
+{
+	text-decoration: underline;
+	color:#2c3e50;
+}
+
+header
+{
+	height: 75px;
+	background-color: #ecf0f1;
+	padding-left:50px;
+	text-align: left;
+	padding-bottom: 15px;
+}
+
+.column
+{
+	position:relative;
+	width:297px;
+	float:left;
+	text-align: justify;
+}
+
+#copyright
+{
+	color:#ecf0f1;
+	text-align: center;
+
+}
+
+
+#img
+{
+	position: relative;
+	background-image: url("../imgs/silver_2.jpg");
+	height:50px;
+	border-bottom: 1px solid #464646;
+
+}
+
+h4
+{
+	padding-left: 20px;
+	padding-top: 20px;
+	color:#2c3e50;
+}
+
+h1
+{
+	font-size: 8em;
+	
+
+}
+
+p
+{
+	font-size: 13px;
+	padding: 20px;
+}
+
+footer, .push {
+	height: 4em; 
+	width:900px;
+	
+	clear: both;
+}
+footer
+{
+	position: relative;
+	background-color: #e74c3c;
+	margin: 0 auto;
+	
+}
+#post-info
+{
+	font-size: 1em;
+	line-height: 90%;
+	color:#2c3e50;
+}
+.post 
+{
+	width:70%;
+	text-align: justify;
+}
+.social
+{
+	height:32px;
+	width: 32px;
+
+}
+
+#social
+{
+	position: absolute;
+	bottom:10px;
+	right:10px;
+}
+
+header a
+{
+	text-decoration: none;
+	color:#2c3e50;
+	
+
+}
+header a:hover
+{
+	
+	color:#e74c3c;
+
+
+}
+#tags
+{
+	
+	padding: 20px;
+}
+
+#tags a
+{
+	text-decoration: none;
+	color:#2c3e50;
+}
+
+#tags a:hover
+{
+	text-decoration: none;
+	color:#e74c3c;
+}
+#sidebar
+{
+	position: relative;
+	border-left: 1px solid #D3D3D3;
+	height: 625px;
+	width:200px;
+	margin: 0 auto -4em;
+	float:right;
+	clear: both;
+}
+#post-list
+{
+	padding: 20px;
+}
+
+#post-list a
+{
+	text-decoration: none;
+	color:#2c3e50;
+}
+
+#post-list a:hover
+{
+	text-decoration: none;
+	color:#e74c3c;
+}
+
+* {
+	margin: 0;
+}
