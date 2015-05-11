@@ -2,7 +2,7 @@ body, html
 {
 	height: 100%;
 	color:#898989;
-	background-image: url("imgs/concrete_seamless.png");
+	background-image: url("../imgs/concrete_seamless.png");
 	font-family: 'Arimo', sans-serif;
 	
 }
